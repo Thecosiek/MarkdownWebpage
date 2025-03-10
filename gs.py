@@ -17,8 +17,6 @@ with open(output_file, "w", encoding="utf-8") as file:
     for sekcja in sekcje:
         query = f"{sekcja} instrument muzyczny"
         file.write(f"## {sekcja}\n\n")
-        
-        print(f"🔎 Wyszukiwanie: {query}...")
 
         try:
             results = search(query, num_results=3, lang="pl")
@@ -28,5 +26,5 @@ with open(output_file, "w", encoding="utf-8") as file:
         except Exception as e:
             print(f"Błąd podczas wyszukiwania dla {sekcja}: {e}")
 
-        time.sleep(1)  # Krótka przerwa, aby uniknąć blokady Google
+        time.sleep(1) 
 
