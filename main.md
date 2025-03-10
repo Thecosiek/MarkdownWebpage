@@ -14,4 +14,4 @@ Ale dość smętnego marudzenia. W końcu wpadłem na pomysł żeby zescrapować
 
 [lista sekcji Grandioso](list.md)
 
-![Obrazek](./obrazek.jpg)
+![Obrazek](/assets/images/obrazek.jpg)
